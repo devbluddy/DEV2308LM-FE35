@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>btvn</title>
+</head>
+<body>
+    <h1>bai 3   </h1>
+    <table border="1" style="text-align: center; width: 600px;" cellpadding="10px" cellspacing="0px" >
+        <tbody> 
+            <tr>
+                <th rowspan="3">buoi</th>
+                <th colspan="3">lich hoc</th>
+            </tr>
+            <tr>
+                <td colspan="2">thoi gian</td>
+                <td rowspan="2">mon hoc</td>
+            </tr>
+            <tr>
+                <td>bat dau</td>
+                <td>ket thuc</td>
+            </tr>
+            <tr>
+                <th rowspan="2">thu 2</th>
+                <td rowspan="2">8:00 AM</td>
+                <td rowspan="2">12:00 AM </td>
+                <td>co so du lieu</td>
+            </tr>
+            <tr>
+                <td>nhap mon c</td>
+            </tr>
+            <tr>
+                <th rowspan="3">thu 3</th>
+                <td>8:00 AM</td>
+                <td>12:00 AM</td>
+                <td rowspan="2">thiet ke wed</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>5:00 PM</td>
+            </tr>
+            <tr>
+                <td>6:00 PM</td>
+                <td>8:00 PM</td>
+                <td>PHP</td>
+            </tr>
+            <tr>
+                <th>thu 4</th>
+                <td>2:00 PM</td>
+                <td>9:00 PM</td>
+                <td>JAVA CORE</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1>bai 6</h1>
+
+        <table>
+            <thead>
+                <th style="text-align: left;" colspan="2">Đăng ký thông tin người sử dụng</th>
+            </thead>
+            <tbody>
+                <form action="">
+                    <tr>
+                        <th style="text-align: left;"><label for="account" >Tên đăng nhập</label></th>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"> <label for="pass">Mật khẩu</label></th>
+                        <td> <input type="password" ></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="passagaint">Nhập lại mật khẩu</label></th>
+                        <td> <input type="password"></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"> <label for="email">Email</label></th>
+                        <td> <input type="email"></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="gender">Giới tính</label></th>
+                        <td><input type="radio" name="gender"> Nam
+                        <input type="radio" name="gender"> Nữ</td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"> <label for="age">Độ tuổi</label></th>
+                        <td><input type="radio" name="age"> Dưới 13
+                        <input type="radio" name="age"> Từ 13 đến 17
+                            <input type="radio" name="age"> Từ 18 đến 25
+                            <input type="radio" name="age"> Trên 25</td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="hobbit">Sở thích của bạn</label></th>
+                        <td><input type="checkbox"> Âm nhạc
+                            <input type="checkbox"> Game
+                        <input type="checkbox"> Thể thao
+                        <input type="checkbox"> Du lịch</td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="job" placeholder="Chọn ngành nghề">Nghề nghiệp</label></th>
+                        <td>
+                            <select name="job" id="111">
+                                <option value="job">Chọn ngành nghề</option>
+                                <option value="job">IT</option>
+                                <option value="job">Kỹ sư</option>
+                                <option value="job">Nhân viên văn phòng</option>
+                                <option value="job">Đầu bếp</option>
+                                <option value="job">Sinh viên</option>
+                                <option value="job">Khác</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="note">Mô tả bản thân</label></th>
+                        <td><textarea name="note" id="222" cols="30" rows="5" placeholder="Mô tả về bản thân bạn..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;" colspan="2">
+                            <input type="button" name="sign-up" value="Đăng kí">
+                            <input type="button" name="reset" value="Làm lại">
+                        </td>
+                    </tr>
+                </form>
+            </tbody>
+        </table>
+        <hr>
+        <h1>bai 7</h1>
+        <table>
+            <tbody>
+               <form action="">
+                <tr>
+                    <th colspan="2" style="text-align: left;">TO DO LIST</th>
+                </tr>
+                <tr>
+                    <th colspan="2"  style="text-align: left;">Item</th>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text"></td>
+                </tr>
+                <tr>
+                    <th colspan="2"  style="text-align: left;">Descriptione</th>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="Descriptione" id="" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <th  style="text-align: left;">
+                        Priority
+                    </th>
+                    <th  style="text-align: left;">
+                        Category
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="Priority" id="1">
+                        <option value="Priority">low</option>
+                        <option value="Priority">medium</option>
+                        <option value="Priority">high</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="Category" id="1" >
+                        <option value="Category" >personal</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th  style="text-align: left;">
+                        Due Date
+                    </th>
+                </tr>
+                <tr>
+                    <td> <input type="date"></td>
+                </tr>
+                <tr>
+                   <td colspan="2" style="text-align: left;">Status</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: left;"><input type="checkbox" name="Status" value="done"></td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="text-align: left;"><input type="submit" name="submid" value="submid"></td>
+                </tr>
+               </form>
+            </tbody>
+        </table>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table va form</title>
+</head>
+<body>
+    <h1> table:</h1>
+    <pre>
+        I muc tieu
+            -cau truc cua 1 table 
+            -biet cach tao va trien khai table theo thiet ke 
+                +biet cach su dung cac thuoc tinh tac dong toi vien, khoang cach, hang, cot
+    </pre>
+    <hr>
+
+    <table border="1">
+        <thead>
+            <!-- bieu dien cac tieu de cho noi dung table -->
+
+            <tr>
+                <th>
+                    dev_head
+                </th>
+                <th>
+                    dev_head 2
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    dev 2 1
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- bieu dien noi dung table -->
+
+            <tr>
+                <td colspan="3">
+                    dev_body
+                </td>
+                <td rowspan="2">
+                    dev_body
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    body 1
+                </td>
+                <td>
+                    body2
+                </td>
+                <td>
+                    body 3
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <!-- bieu dien noi dung chu thich cua table -->
+
+            <tr>
+
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2> 
+        cac thuoc tinh trong table
+    </h2>
+    <h4>bai tap 1</h4>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    cot 1
+                </th>
+                <th>
+                    cot 2
+                </th>
+                <th>
+                    cot 3
+                </th>
+                <th>
+                    cot 4
+                </th>
+                <th>
+                    cot 5
+                </th>
+                <th>
+                    cot 6
+                </th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="2">noi dung 1.1</td>
+                <td>noi dung 1.2</td>
+                <td>noi dung 1.3</td>
+                <td>noi dung 1.4</td>
+                <td>noi dung 1.5</td>
+                <td>noi dung 1.6</td>
+            </tr>
+            <tr>
+                <td>noi dung 2.1</td>
+                <td>noi dung 2.2</td>
+                <td>noi dung 2.3</td>
+                <td>noi dung 2.4</td>
+                <td>noi dung 2.5</td>
+            </tr>
+            <tr>
+                <td colspan="5">noi dung 3.1</td>
+                <td>noi dung 3.2</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>bai tap 2</h4>
+    <table border="1" cellpadding="10" cellspacing="5">
+        <thead>
+            <tr>
+                <th rowspan="2">stt</th>
+                <th rowspan="2">ho ten</th>
+                <th rowspan="2">ngay sinh</th>
+                <th colspan="3">diem</th>
+            </tr>
+            <tr>
+                <th>toan</th>
+                <th>van</th>
+                <th>anh</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>hieu</td>
+                <td>07/12/2002</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
