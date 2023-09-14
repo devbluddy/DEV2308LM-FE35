@@ -1,0 +1,202 @@
+/* css mặc định */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+/* css phần header */
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-top: 50px;
+}
+.head-logo{
+    width: 30%;
+}
+.head-logo img{
+    width: 40%;
+    padding-left: 118px;
+}
+.head-menu {
+    width: 70%;
+}
+.main-menu{
+    display: flex;
+    height: 100%;
+}
+.main-option{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding-top: 15px
+}
+/*css phần banner  */
+.main-banner {
+    width: 100%;
+    position: relative;
+}
+.main-banner img {
+    margin-top: 20px    ;
+    width: 100%;
+}
+.info-banner {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    text-align: justify;
+    top: 25%;
+    left: 15%;
+}
+.info-banner p{
+    margin: 30px 0px;
+    width: 65%;
+    font-size: medium;
+}
+/* all button */
+.button{
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    border: 0;
+    font-size: larger;
+    height: 50px;
+    width: 40%;
+    margin-top: 20px;
+}
+/* css phần sản phẩm */
+.sanpham {
+    position: relative;
+}
+.sanpham h1{
+    margin-top: 100px;
+    text-align: center;
+}
+.infosp {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sp{
+    margin: 0px 20px;
+    text-align: center;
+}
+.la img{
+    width: 5%;
+    position: absolute;
+    left: 90%;
+    top: -10%;
+}
+.hoasen img{
+    width: 10%;
+    position: absolute;
+    top: 70%;
+}
+/* giới thiêu */
+.gioithieu{
+    width: 100%;
+    position: relative;
+}
+.gioithieu h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+}
+.gioithieu img{
+    width: 100%;
+}
+.info-gt {
+    position: absolute;
+    width: 30%;
+    text-align: justify;
+    top: 42%;
+    left: 19%;
+}
+.info-gt p{
+    margin-top: -25px;
+    width: 90%;
+    font-size: medium;
+} 
+.phone {
+    width: 50% !important;
+    position: absolute;
+    top: -49%;
+    left: 210%;
+}
+.number-phone {
+    top: -40%;
+    left: 226%;
+    position: absolute;
+}
+/* nghệ nhân */
+.nghenhan {
+    position: relative;
+}
+.nghenhan>h1{
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    font-size: xx-large;
+}
+.nghenhan>img{
+    width: 100%;
+}
+.infonn {
+    justify-content: center ;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+.infonn p{
+    text-align: center;
+}
+.nn{
+    width: 300px;
+    text-align: center;
+}
+/* mua ngay */
+.buy {
+    position: absolute;
+    width: 100%;
+}
+.buy img{
+    width: 100%;
+}
+.buy h1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: xx-large;
+}.buy form {
+    position: absolute;
+    width: 80%;
+    top: 60%;
+    left: 20%;
+}
+.text {
+    border: 3px solid greenyellow;
+    height: 50px;
+    width: 50%;
+    margin-top: 20px;
+}
+form>.button{
+    margin-left: 20px;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    border: 0;
+    font-size: larger;
+    height: 50px;
+    width: 20%;
+    margin-top: 20px;
+}

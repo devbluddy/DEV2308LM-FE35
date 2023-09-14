@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.ul {
+   
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+    display: flex;
+    list-style: none;
+    border-radius: 5px;
+}
+.li{
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    border-right: 1px solid;
+}
+.li:last-child{
+    border-right: 0;
+}
+/* li:nth-child(n) can thiep den con dung thu n*/
+.ul .li:hover a{
+    color: aqua;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
