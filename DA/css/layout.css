@@ -1,4 +1,7 @@
 /* css mặc định */
+html{
+    font-size: 20px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -13,9 +16,9 @@
     text-align: center;
     border: 0;
     font-size: larger;
-    height: 50px;
+    height: 2.5rem;
     width: 40%;
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 /* display flex */
 .d-flex{

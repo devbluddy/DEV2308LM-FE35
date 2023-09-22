@@ -97,3 +97,5 @@ console.log("tam giac la tam giac thuong");
         sum += parseInt(arrnum[i]);
     }
     console.log("tong cua mang la ",sum);
+    // btvn tinh tich tat ca cac phan tu 
+    //           tong va tich cac phan tu o vi tri chan
