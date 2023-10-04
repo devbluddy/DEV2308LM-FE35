@@ -24,10 +24,11 @@ function login() {
         if (user[i].username==username && user[i].password==password) {
             document.write("dang nhap thanh cong")
             tempproduct=true;
-        }if (user[i].username==null || user[i].password==null) {
+        }
+        if (user[i].username==null || user[i].password==null) {
             alert("khong duoc bo trong")
             tempproduct=true;
-            break
+            break;
         }
         if (!tempproduct) {
             alert("sai tai khoang hoac mat khau");
